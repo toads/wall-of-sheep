@@ -1,5 +1,5 @@
 # wall-of-sheep
-XDSEC  Recruitment
+2018 XDSEC  Recruitment
 ## Usage
 
 | Server | 将server.py 置于Linux环境中，用 Python3  运行。              |
