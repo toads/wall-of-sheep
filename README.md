@@ -1,5 +1,5 @@
 # wall-of-sheep
---2018 XDSEC  Recruitment--
+~~2018 XDSEC  Recruitment~~
 
 2019 XDSEC  Recruitment
 ## Usage
