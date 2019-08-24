@@ -5,7 +5,7 @@
 ## Usage
 
 
-''' bash
+``` bash
 git clone https://github.com/toads/wall-of-sheep
 cd wall-of-sheep
 pip install -r reqirement.txt
