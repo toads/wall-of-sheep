@@ -1,8 +1,13 @@
 # wall-of-sheep
-2018 XDSEC  Recruitment
+--2018 XDSEC  Recruitment--
+
+2019 XDSEC  Recruitment
 ## Usage
 
-| Server | 将server.py 置于Linux环境中，用 Python3  运行。              |
-| ------ | ------------------------------------------------------------ |
-| **Client** | **需要本地配置server框架，如 [WAMP](www.wampserver.com/)等框架，将文件置于根目录下可运行。** |
 
+''' bash
+git clone https://github.com/toads/wall-of-sheep
+cd wall-of-sheep
+pip install -r reqirement.txt
+flask run -h 0.0.0.0
+```
