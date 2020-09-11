@@ -57,8 +57,8 @@ https://serverfault.com/questions/217605/how-to-capture-ack-or-syn-packets-by-tc
 bfp = 'tcp[tcpflags]&(tcp-push|tcp-ack) != 0 || tcp src port 8080 || tcp dst port 8080'
 # bfp = 'tcp src port 8080 || tcp dst port 8080'
 
-iface = ['wlan1', 'wlan2', 'wlan0']
-channel = [1, 6, 11]
+iface = ['wlan1',  'wlan2']
+channel = [1, 6 ]
 
 
 def start_sniffer():
@@ -71,4 +71,4 @@ def start_sniffer():
     sniff_thread.daemon = True
     sniff_thread.start()
 
-# init_db(conn)
+init_db()

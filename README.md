@@ -14,7 +14,7 @@ Obtaining the QQ number of nearby sheep in Open WiFi environment.
 ``` bash
 git clone https://github.com/toads/wall-of-sheep
 cd wall-of-sheep
-pip3 install -r reqirement.txt
+pip3 install -r requirement.txt
 flask run -h 0.0.0.0
 ```
 
